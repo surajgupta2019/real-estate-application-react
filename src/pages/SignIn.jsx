@@ -10,7 +10,6 @@ export default function SignIn() {
     });
     const{ email, password} = formData;
     function onChange(e){
-        console.log(e.target.value)
         setFormData((prevState) => ({
             ...prevState,
             [e.target.id]: e.target.value,
